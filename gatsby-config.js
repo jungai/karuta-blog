@@ -18,14 +18,15 @@ module.exports = {
 		'gatsby-transformer-remark',
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
-		{
-			resolve: 'gatsby-source-filesystem',
-			options: {
-				name: 'images',
-				path: './src/images/',
-			},
-			__key: 'images',
-		},
+		// TODO: not have images yet
+		// {
+		// 	resolve: 'gatsby-source-filesystem',
+		// 	options: {
+		// 		name: 'images',
+		// 		path: './src/images/',
+		// 	},
+		// 	__key: 'images',
+		// },
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
