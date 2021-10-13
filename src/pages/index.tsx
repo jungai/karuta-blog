@@ -1,11 +1,11 @@
-import { ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 import { Link } from 'gatsby';
 
 const IndexPage = (): ReactElement => {
 	return (
 		<div className="grid place-content-center h-screen">
 			<h1 className="text-2xl text-[tomato]">Karuta Blog</h1>
-			<Link to="command">commands</Link>
+			<Link to="/command">commands</Link>
 		</div>
 	);
 };
