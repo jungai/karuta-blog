@@ -1,7 +1,7 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 
-const IndexPage = (): ReactElement => {
+const IndexPage = () => {
 	return (
 		<div className="grid place-content-center h-screen">
 			<h1 className="text-2xl text-[tomato]">Karuta Blog</h1>

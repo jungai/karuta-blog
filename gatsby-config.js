@@ -4,7 +4,6 @@ module.exports = {
 		title: 'karuta-blog',
 	},
 	plugins: [
-		'gatsby-plugin-typescript',
 		'gatsby-plugin-postcss',
 		'gatsby-plugin-image',
 		// TODO: add later
