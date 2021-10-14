@@ -1,7 +1,10 @@
 {
-	"printWidth": 120,
-	"trailingComma": "all",
-	"semi": true,
-	"arrowParens": "always",
-	"singleQuote": true
+  "endOfLine": "auto",
+  "printWidth": 120,
+  "trailingComma": "all",
+  "semi": false,
+  "arrowParens": "always",
+  "singleQuote": true,
+  "jsxBracketSameLine": false,
+  "bracketSpacing": true
 }
