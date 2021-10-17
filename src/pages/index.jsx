@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
+import { Link } from 'gatsby'
 
 const IndexPage = () => {
 	return (
@@ -13,7 +14,20 @@ const IndexPage = () => {
 						Apple.
 					</h1>
 				</div>
-				<div className="h-96 bg-green-500 bg-gradient-to-t from-white px-20 py-2"></div>
+				<div className="h-96 bg-green-500 bg-gradient-to-t from-white px-20 py-2">
+					<ul>
+						<li>
+							<Link to="/karuta/command" className="hover:text-tomato">
+								command
+							</Link>
+						</li>
+						<li>
+							<Link to="/karuta/how-to-play" className="hover:text-tomato">
+								how to play
+							</Link>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</>
 	)
