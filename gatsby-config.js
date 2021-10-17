@@ -35,10 +35,18 @@ module.exports = {
 			__key: 'pages',
 		},
 		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'contents',
+				path: './_contents/',
+			},
+			__key: 'contents',
+		},
+		{
 			resolve: `gatsby-plugin-mdx`,
 			options: {
 				extensions: [`.md`, `.mdx`],
 			},
 		},
 	],
-};
+}
