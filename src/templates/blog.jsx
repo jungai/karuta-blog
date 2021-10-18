@@ -15,7 +15,7 @@ const Blog = ({ data }) => {
 
 export const pageQuery = graphql`
 	query ($path: String!) {
-		markdownRemark(frontmatter: { slug: { eq: $path } }) {
+		markdownRemark(frontmatter: { path: { eq: $path } }) {
 			html
 			frontmatter {
 				date
