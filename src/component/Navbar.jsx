@@ -28,10 +28,10 @@ const Navbar = () => {
 			</div>
 			<div className="hidden sm:flex space-x-6 text-sm">
 				<p>{wording}</p>
-				<Link to="/posts/command" className="hover:text-tomato">
+				<Link to="/karuta/command" className="hover:text-tomato">
 					Karuta
 				</Link>
-				<Link to="/posts/command" className="hover:text-green-500">
+				<Link to="/karuta/command" className="hover:text-green-500">
 					Blog
 				</Link>
 			</div>
