@@ -1,7 +1,8 @@
 ---
 title: 'Command'
 author: 'Jungai'
-slug: '/karuta/command'
+slug: 'command'
+path: '/karuta/command'
 date: '2019-05-04'
 ---
 

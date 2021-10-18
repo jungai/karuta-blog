@@ -1,7 +1,8 @@
 ---
 title: 'How to play'
 author: 'Jungai'
-slug: '/karuta/how-to-play'
+slug: 'how-to-play'
+path: '/karuta/how-to-play'
 date: '2019-05-04'
 ---
 
